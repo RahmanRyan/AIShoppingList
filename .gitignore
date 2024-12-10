@@ -39,6 +39,7 @@ out/
 ### Project Specific ###
 application.yml
 application.yaml
+application.properties
 *.log
 /models/
 .env
