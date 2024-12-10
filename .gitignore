@@ -37,7 +37,6 @@ out/
 .vscode/
 
 ### Project Specific ###
-application.properties
 application.yml
 application.yaml
 *.log
