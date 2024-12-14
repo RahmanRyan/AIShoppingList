@@ -40,6 +40,8 @@ out/
 application.yml
 application.yaml
 application.properties
+src/main/resources/firebase-service-account.json
+
 *.log
 /models/
 .env

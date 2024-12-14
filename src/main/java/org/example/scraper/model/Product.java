@@ -8,13 +8,15 @@ import java.time.LocalDateTime;
 public class Product {
     @Id
     private String id;
+    private String userId;
     private String name;
     private String price;
     private String url;
     private LocalDateTime scrapedAt;
 
-    public Product(String name, String price, String url) {
+    public Product(String userId, String name, String price, String url) {
         this.name = name;
+        this.userId = userId;
         this.price = price;
         this.url = url;
         this.scrapedAt = LocalDateTime.now();
@@ -23,6 +25,8 @@ public class Product {
     // Getters and setters
     public String getId() { return id; }
     public void setId(String id) { this.id = id; }
+    public String getUserId() { return userId; }
+    public void setUserId(String userId) { this.userId = userId; }
     public String getName() { return name; }
     public void setName(String name) { this.name = name; }
     public String getPrice() { return price; }
